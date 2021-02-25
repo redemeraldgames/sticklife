@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -50px;
+}
+
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    float: right;
+    text-align: left;
+}
+.navbar {
+    background: #b40000;
+}
+.navbar-toggler {
+    border: none!important;
+}
+.nav-link {
+    color: rgb(255, 255, 255)!important;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Play', sans-serif;
+    letter-spacing: 1px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+
+.content-row {
+    margin: 0 auto;
+    max-width: 1300px;
+    border-radius: 3px;
+}
+.content-header {
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+.content-subheader {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    color: white;
+}
+.content-textheader {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    color: rgb(230, 230, 230);
+}
+.content-text {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Play', sans-serif;
+    color: rgb(230, 230, 230);
+}
+
+
+.push {
+    height: 70px;
+}
+.footer {
+    height: 50px;
+    background-color: black;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Play', sans-serif;
+    color: rgb(230, 230, 230);
+    text-align: center;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+    .extra-space {
+        display: none!important;
+    }
+}
