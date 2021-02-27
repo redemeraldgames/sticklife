@@ -102,4 +102,20 @@ html, body {
     .extra-space {
         display: none!important;
     }
+
+    .content-header {
+        font-size: 40px;
+    }
+    .content-text {
+        font-size: 15px;
+    }
+    .content-textheader {
+        font-size: 15px;
+    }
+    .content-subheader {
+        font-size: 22px;
+    }
+    .footer-text {
+        font-size: 12px;
+    }
 }
